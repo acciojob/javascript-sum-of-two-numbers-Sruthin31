@@ -1,5 +1,6 @@
-let input1 = prompt("Enter the first number:");
-let input2 = prompt("Enter the second number:");
+function addNumbers(){
+const input1 = prompt("Enter the first number:");
+const input2 = prompt("Enter the second number:");
 
 if(input1===null || input2===null || input1.trim()="" || input2.trim()=""){
 	alert("Invalid input. Please enter a valid number.");
@@ -16,5 +17,6 @@ else{
 	const sum = num1+num2;
 
 	alert(`The sum of ${num1} and ${num2} is ${sum}.`);
+}
 }
 // Write your code here and print the output using alert function
