@@ -11,12 +11,12 @@ const num1 = Number(input1);
 const num2 = Number(input2);
 
 if(isNaN(num1) || isNaN(num2)){
-	("Invalid input. Please enter a valid number.");
+	alert("Invalid input. Please enter a valid number.");
 }
 else{
 	const sum = num1+num2;
 
-	alert(`The sum of${num1} and ${num2} is ${sum}`);
+	alert(`The sum of ${num1} and ${num2} is ${sum}.`);
 }
 
 // Write your code here and print the output using alert function
